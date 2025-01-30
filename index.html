@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+ <!-- Navigation -->
+<nav>
+  <div class="container">
+    <ul>
+      <li><a href="#home">Home</a></li> <!-- Added Home -->
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+  <!-- Home Section -->
+<section id="home">
+  <div class="container">
+    <img src="facepic.jpeg" alt="Your photo" class="profile-pic">
+    <h1 id="typing"></h1>
+    <p class="subtitle"><span id="dynamic-text"></span><span class="blinking">|</span></p>
+    <p class="intro">
+      In the dynamic world of technology, you can call me a tech aficionado, a coding enthusiast, or a data enthusiast—I embrace many roles, all driven by an insatiable curiosity and a deep passion for creativity and progress.
+    </p>
+  </div>
+</section>
+
+
+ <!-- Social Media Buttons -->
+<div class="social-buttons">
+  <a href="https://github.com/VenkataKrishna67" target="_blank" class="social-btn github" data-label="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/venkata-krishna-pokala-2b4625208" target="_blank" class="social-btn linkedin" data-label="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="mailto:pokala.krishna67@gmail.com" class="social-btn mail" data-label="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+  <a href="Resume_J.pdf" download class="social-btn resume" data-label="Resume">
+    <i class="fas fa-file-pdf"></i>
+  </a>
+</div>
+
+
+ <!-- About Section -->
+<section id="about">
+  <div class="container">
+    <div class="about-container">
+      <!-- Part 1: Greeting and Name -->
+      <div class="about-greeting">
+        <h2>Hi, I'm Venkata Krishna</h2>
+        <p class="greeting-text">Glad that you're here! Please check out my portfolio to learn more about my work and skills.</p>
+      </div>
+
+      <!-- Part 2: Detailed Description -->
+      <div class="about-details">
+        <p>With a deep passion for technology and problem-solving, I’m dedicated to crafting innovative software solutions that empower individuals, teams, and businesses to thrive. As a Master of Science in Computer Science student at USF, I specialize in leveraging the latest technologies to deliver impactful results. Whether you're a startup, a growing business, or an enterprise, my focus is on creating tailored software that aligns perfectly with your goals. Let’s work together to transform your digital challenges into opportunities and turn your ideas into reality. Ready to innovate and build something exceptional? Let’s connect and make it happen!.
+
+
+
+
+</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <details>
+        <summary><i class="fas fa-code"></i> Programming Languages</summary>
+        <ul>
+          <li>Java</li>
+          <li>Python</li>
+          <li>C</li>
+          <li>C++</li>
+          <li>.NET/C#</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><i class="fas fa-globe"></i> Web Development & Frameworks</summary>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>RESTful APIs</li>
+          <li>Servlets</li>
+          <li>Spring</li>
+          <li>ReactJs</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><i class="fas fa-database"></i> Database Technologies</summary>
+        <ul>
+          <li>SQL</li>
+          <li>MySQL</li>
+          <li>Data Pipelines (ETL)</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><i class="fas fa-chart-line"></i> Data Analysis and Engineering</summary>
+        <ul>
+          <li>Data Cleaning</li>
+          <li>Statistical Analysis</li>
+          <li>Data Visualization (Tableau, Power BI)</li>
+          <li>pandas</li>
+          <li>NumPy</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><i class="fas fa-robot"></i> Automation Tools</summary>
+        <ul>
+          <li>UiPath (Robotic Process Automation)</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><i class="fas fa-brain"></i> Machine Learning</summary>
+        <ul>
+          <li>Regression</li>
+          <li>Classification</li>
+          <li>Clustering</li>
+          <li>Model Evaluation</li>
+          <li>Data Processing</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><i class="fas fa-laptop-code"></i> Software Development</summary>
+        <ul>
+          <li>Object-Oriented Programming (OOP)</li>
+          <li>Software Design</li>
+          <li>Debugging</li>
+          <li>Testing</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><i class="fas fa-user-friends"></i> Other Skills</summary>
+        <ul>
+          <li>Communication</li>
+          <li>Project Management</li>
+          <li>Leadership</li>
+          <li>Multitasking</li>
+        </ul>
+      </details>
+    </div>
+  </section>
+
+<!-- Work Section -->
+<section id="work">
+  <div class="container">
+    <h2>My Work</h2>
+<p class="github-note">For more projects, feel free to explore my GitHub for additional work.</p>
+
+    <div class="projects">
+      <!-- Project 1: Handwritten Digit Recognition -->
+      <div class="project-card">
+        <img src="hand.jpeg" alt="Handwritten Digit Recognition">
+        <div class="project-info">
+          <h3>Handwritten Digit Recognition</h3>
+          <p>This project implements a Convolutional Neural Network (CNN) to classify handwritten digits from the MNIST dataset using Keras and TensorFlow.</p>
+          <a href="https://github.com/VenkataKrishna67/Hand-written-digit-recognition" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+
+      <!-- Project 2: COVID-19 Data Analysis and Visualization -->
+      <div class="project-card">
+        <img src="covid.png" alt="COVID-19 Data Analysis">
+        <div class="project-info">
+          <h3>COVID-19 Data Analysis and Visualization</h3>
+          <p>This repository contains a Jupyter Notebook dedicated to analyzing and visualizing COVID-19 data in conjunction with the World Happiness Report.</p>
+          <a href="https://github.com/VenkataKrishna67/COVID-19-Data-Analysis-and-Visualization" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+
+      <!-- Project 3: Breast Cancer Prediction -->
+      <div class="project-card">
+        <img src="cancer.jpg" alt="Breast Cancer Prediction">
+        <div class="project-info">
+          <h3>Breast Cancer Prediction</h3>
+          <p>This project aims to predict breast cancer using various machine learning algorithms, analyzing their performance in terms of accuracy, precision, recall, and F1-score.</p>
+          <a href="https://github.com/VenkataKrishna67/PREDICTION-OF-BREAST-CANCER-COMPARATIVE-REVIEW-OF-MACHINE-LEARNING-TECHNIQUES-AND-THEIR-ANALYSIS" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/mldgbnjq" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2023 Venkata Krishna Pokala. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Typing Animation Script -->
+  <script>
+    // Typing animation for name
+    const typingText = "Venkata Krishna Pokala";
+    const typingElement = document.getElementById("typing");
+    let nameIndex = 0;
+
+    function typeName() {
+      if (nameIndex < typingText.length) {
+        typingElement.textContent += typingText.charAt(nameIndex);
+        nameIndex++;
+        setTimeout(typeName, 100);  // Keep typing name
+      } else {
+        setTimeout(startRolesTyping, 500);  // Start typing roles after name is done
+      }
+    }
+
+    // Typing animation for dynamic roles
+    const roles = ["I am a Software Engineer", "I am a Data Engineer", "I am a Full Stack Developer", "I am a Data Analyst"];
+    let roleIndex = 0;
+    let roleCharIndex = 0;
+    let roleElement = document.getElementById("dynamic-text");
+
+    function startRolesTyping() {
+      function typeRole() {
+        if (roleCharIndex < roles[roleIndex].length) {
+          roleElement.textContent += roles[roleIndex].charAt(roleCharIndex);
+          roleCharIndex++;
+          setTimeout(typeRole, 100);  // Keep typing role
+        } else {
+          setTimeout(eraseRole, 100);  // Wait before erasing
+        }
+      }
+
+      function eraseRole() {
+        if (roleCharIndex > 0) {
+          roleElement.textContent = roles[roleIndex].substring(0, roleCharIndex - 1);
+          roleCharIndex--;
+          setTimeout(eraseRole, 10);  // Erase text
+        } else {
+          roleIndex = (roleIndex + 1) % roles.length;  // Loop through roles
+          setTimeout(typeRole, 500);  // Start typing again
+        }
+      }
+
+      typeRole();  // Start typing roles after name is done
+    }
+
+    typeName();  // Start the name typing animation
+  </script>
+
+</body>
+</html>
